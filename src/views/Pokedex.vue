@@ -11,7 +11,7 @@
       <div class="card text-center">
         <router-link class="text-decoration-none" :to="'/pokemon/' + pokemon.name">
         <div class="card-body p-3">
-            <Sprite :name="pokemon.name" :url="pokemon.url" />
+          <Sprite :name="pokemon.name" :url="pokemon.url" />
         </div>
         <div class="card-footer text-muted">
           <span class="text-capitalize">{{ pokemon.name }}</span>
