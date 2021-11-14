@@ -12,7 +12,7 @@
 </template>
 
 <style scoped>
-[v-cloak] {
+[v-cloak] > * {
   display: none !important;
 }
 </style>
